@@ -78,3 +78,10 @@ and forth simply by pointing your apps at the corresponding URL.
   (incl. `*-legacy-free` builds)
 - [Explore SAPUI5/OpenUI5 1.136.x-legacy-free (SAP Community)](https://community.sap.com/t5/technology-blog-posts-by-sap/explore-sapui5-openui5-1-136-x-legacy-free/ba-p/14103271)
 - [Adapt your app to SAPUI5 2.x (SAP Community)](https://community.sap.com/t5/technology-blog-posts-by-sap/adapt-your-app-to-sapui5-2-x-make-an-impact-by-joining-our-cei-project/ba-p/13722775)
+- [UI5 linter](https://github.com/UI5/linter) – static code analysis tool
+  that flags deprecated APIs and helps keep your project legacy-free
+- [Migrate your code with UI5 linter – Autofix has landed (SAP Community)](https://community.sap.com/t5/technology-blog-posts-by-sap/migrate-your-code-with-ui5-linter-autofix-has-landed/ba-p/14048470)
+- [OpenUI5 documentation](https://openui5.org/documentation)
+- [OpenUI5 on GitHub](https://github.com/UI5/openui5)
+- [SAPUI5: What's New Viewer](https://sapui5.hana.ondemand.com/sdk/#/topic/13f1f64ae5904b8eaff10ddcdf4b3a7c)
+  – tracks deprecations and replacements per release
