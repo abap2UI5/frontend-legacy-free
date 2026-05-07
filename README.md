@@ -1,4 +1,4 @@
-# frontend-v2
+# frontend-legacy-free
 Frontend of abap2UI5 (legacy-free)
 
 This frontend is bootstrapped from the new **legacy-free** distribution of
