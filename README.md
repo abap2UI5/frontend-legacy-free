@@ -20,3 +20,4 @@ of the API surface that UI5 2.x will enforce.
 - [Available OpenUI5 versions](https://sdk.openui5.org/versionoverview.html)
   (incl. `*-legacy-free` builds)
 - [Explore SAPUI5/OpenUI5 1.136.x-legacy-free (SAP Community)](https://community.sap.com/t5/technology-blog-posts-by-sap/explore-sapui5-openui5-1-136-x-legacy-free/ba-p/14103271)
+- [Adapt your app to SAPUI5 2.x (SAP Community)](https://community.sap.com/t5/technology-blog-posts-by-sap/adapt-your-app-to-sapui5-2-x-make-an-impact-by-joining-our-cei-project/ba-p/13722775)
