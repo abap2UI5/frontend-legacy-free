@@ -43,6 +43,26 @@ ecosystem and tomorrow's UI5 2.x. Building abap2UI5's frontend on it now
 means the framework is ready for 2.x the day it lands, instead of
 chasing it afterwards.
 
+## Installation
+
+This repository is a **BSP application** (`Z2UI5_V2`) and is installed
+straight into an SAP system with [abapGit](https://abapgit.org). Clone
+this repo into a new abapGit online or offline project, pull it into a
+local package and activate – there is no separate build step.
+
+On activation abapGit creates the BSP itself and the matching ICF
+service nodes named **`Z2UI5_V2`** under `/default_host/sap/bc/bsp/sap/`
+and `/default_host/sap/public/bc/ui5_ui5/sap/`. Make sure both ICF
+nodes are activated (transaction `SICF`) so the frontend can be served.
+
+The application can be installed and run **in parallel** to the
+classic [`abap2UI5/frontend`](https://github.com/abap2UI5/frontend)
+repository: because the BSP and the ICF nodes use the dedicated
+`Z2UI5_V2` name, the legacy-free frontend lives next to the existing
+one without overwriting or conflicting with it. That makes it easy to
+try out the legacy-free / UI5 2.x preview side by side and switch back
+and forth simply by pointing your apps at the corresponding URL.
+
 ## Why try the v2 version
 
 - **Future-proof.** Apps already run on what UI5 2.x will require – no
