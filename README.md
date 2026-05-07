@@ -2,60 +2,24 @@
 Frontend of abap2UI5 (legacy-free) (optional)
 
 This frontend is bootstrapped from the new **legacy-free** distribution of
-OpenUI5 (`1.142.0-legacy-free`). The legacy-free build ships without the
-deprecated globals, jQuery plugins, and synchronous APIs that older UI5
-applications still rely on:
+OpenUI5 (`1.142.0-legacy-free`) – the build without `jQuery.sap.*`,
+synchronous APIs and other deprecated globals. It is essentially a preview
+of the API surface that UI5 2.x will enforce.
 
-- No `jQuery.sap.*` namespace and other legacy globals.
-- No synchronous module loading or synchronous XHR-based APIs.
-- Async bootstrap and modern module syntax (`sap.ui.define` /
-  `sap.ui.require`) only.
+## Why try the v2 version
 
-## Why this matters – the future of UI5
-
-The legacy-free distribution is the path SAP and the OpenUI5 community are
-taking toward UI5 2.x. With UI5 2.x, all of the deprecated APIs that have
-been marked for removal over the last years are finally dropped, and any
-application that still depends on them will simply stop working. Customers
-who keep building against the classic distribution will, sooner or later,
-have to do a migration project – the legacy-free build is essentially a
-preview of what that target looks like today.
-
-By trying out this **v2** frontend, customers get a few concrete benefits:
-
-- **Future-proof apps.** Your abap2UI5 apps already run on the API surface
-  that UI5 2.x will enforce, so there is no big-bang migration ahead.
-- **Smaller and faster.** The legacy-free core ships without jQuery and the
-  old compatibility layers, which means a smaller download and a faster
-  initial load – noticeable especially on mobile and on slow networks.
-- **Cleaner foundation.** Modern async patterns, no hidden globals, fewer
-  surprises in the browser console, and better alignment with current web
-  standards.
-- **Early feedback loop.** Issues you find now can still influence both
-  abap2UI5 and the upstream UI5 roadmap, instead of being discovered after
-  a forced upgrade.
-
-In short: this version is optional today, but it is the direction the whole
-UI5 ecosystem is heading. Adopting it early keeps your abap2UI5 projects
-aligned with where SAP is taking the platform – with less technical debt
-and a smoother ride into UI5 2.x.
+- **Future-proof.** Apps already run on what UI5 2.x will require – no
+  big-bang migration later.
+- **Smaller and faster.** No jQuery and no compatibility layers means a
+  leaner core and quicker startup.
+- **Cleaner foundation.** Modern async patterns, no hidden globals, better
+  alignment with current web standards.
 
 ## Learn more
 
-Official documentation and community resources around UI5 and the
-legacy-free distribution:
-
-- [OpenUI5 SDK / Demo Kit](https://sdk.openui5.org/) – API reference,
-  samples and guides for the current UI5 versions.
+- [OpenUI5 SDK / Demo Kit](https://sdk.openui5.org/)
 - [Available OpenUI5 versions](https://sdk.openui5.org/versionoverview.html)
-  – overview of all releases, including the `*-legacy-free` builds.
-- [OpenUI5 releases](https://openui5.org/releases/) – downloadable
-  distributions, including the legacy-free variants.
+  (incl. `*-legacy-free` builds)
 - [Explore SAPUI5/OpenUI5 1.136.x-legacy-free (SAP Community)](https://community.sap.com/t5/technology-blog-posts-by-sap/explore-sapui5-openui5-1-136-x-legacy-free/ba-p/14103271)
-  – official SAP blog post explaining what the legacy-free distribution
-  is, what got removed, and why it matters.
-- [Migrate your code with UI5 linter – Autofix (SAP Community)](https://community.sap.com/t5/technology-blog-posts-by-sap/migrate-your-code-with-ui5-linter-autofix-has-landed/ba-p/14048470)
-  – the recommended tool to find and fix deprecated UI5 APIs in existing
-  apps before moving to legacy-free / UI5 2.x.
-- [OpenUI5 on GitHub](https://github.com/SAP/openui5) – upstream source,
-  release notes and issue tracker.
+- [UI5 linter – Autofix for deprecated APIs (SAP Community)](https://community.sap.com/t5/technology-blog-posts-by-sap/migrate-your-code-with-ui5-linter-autofix-has-landed/ba-p/14048470)
+- [OpenUI5 on GitHub](https://github.com/SAP/openui5)
