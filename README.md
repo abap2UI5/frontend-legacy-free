@@ -39,3 +39,23 @@ In short: this version is optional today, but it is the direction the whole
 UI5 ecosystem is heading. Adopting it early keeps your abap2UI5 projects
 aligned with where SAP is taking the platform – with less technical debt
 and a smoother ride into UI5 2.x.
+
+## Learn more
+
+Official documentation and community resources around UI5 and the
+legacy-free distribution:
+
+- [OpenUI5 SDK / Demo Kit](https://sdk.openui5.org/) – API reference,
+  samples and guides for the current UI5 versions.
+- [Available OpenUI5 versions](https://sdk.openui5.org/versionoverview.html)
+  – overview of all releases, including the `*-legacy-free` builds.
+- [OpenUI5 releases](https://openui5.org/releases/) – downloadable
+  distributions, including the legacy-free variants.
+- [Explore SAPUI5/OpenUI5 1.136.x-legacy-free (SAP Community)](https://community.sap.com/t5/technology-blog-posts-by-sap/explore-sapui5-openui5-1-136-x-legacy-free/ba-p/14103271)
+  – official SAP blog post explaining what the legacy-free distribution
+  is, what got removed, and why it matters.
+- [Migrate your code with UI5 linter – Autofix (SAP Community)](https://community.sap.com/t5/technology-blog-posts-by-sap/migrate-your-code-with-ui5-linter-autofix-has-landed/ba-p/14048470)
+  – the recommended tool to find and fix deprecated UI5 APIs in existing
+  apps before moving to legacy-free / UI5 2.x.
+- [OpenUI5 on GitHub](https://github.com/SAP/openui5) – upstream source,
+  release notes and issue tracker.
