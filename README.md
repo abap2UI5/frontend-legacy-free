@@ -1,5 +1,5 @@
 # frontend-v2
-Frontend of abap2UI5 (legacy-free) (optional)
+Frontend of abap2UI5 (legacy-free)
 
 This frontend is bootstrapped from the new **legacy-free** distribution of
 OpenUI5 (`1.142.0-legacy-free`) – the build without `jQuery.sap.*`,
